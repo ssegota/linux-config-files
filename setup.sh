@@ -37,3 +37,7 @@ mkdir -p build && cd build/
 ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
 make
 make install
+
+#cleanup
+cd ~
+rm -rf temp
