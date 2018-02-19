@@ -9,6 +9,7 @@ Repo contains configuration files for:
 * vim
 * bash
 * i3
+* i3status
 * terminator
 
 ## setup.sh
