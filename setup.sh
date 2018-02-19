@@ -36,17 +36,3 @@ mkdir -p build && cd build/
 ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
 make
 make install
-
-#--------------------
-#config files
-#--------------------
-#might need to copy them manually
-
-cd .. #go back to temp
-git clone https://www.github.com/ssegota/linux-config-files 
-cd linux-config-files
-#copy config files to home
-cp .vim .vimrc .bashrc ~/
-#copy to .config directory
-cp .config/i3/* ~/.config/i3/
-cp .config/terminator/* ~/.config/terminator/
