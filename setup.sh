@@ -10,6 +10,7 @@ apt install terminator
 apt install cmus
 apt install ubuntu-restricted-extras
 apt install cmake
+apt install nitrogen
 
 #--------------------
 #i3 gaps
@@ -37,6 +38,14 @@ mkdir -p build && cd build/
 ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
 make
 make install
+
+#--------------------
+#SETUP ENV
+#--------------------
+#All aditional setup goes here
+#nautilus setup - removes it as desktop manager, makes it possible to use with i3
+gsettings set org.gnome.desktop.background show-desktop-icons false
+
 
 #cleanup
 cd ~
