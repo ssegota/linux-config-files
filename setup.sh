@@ -9,6 +9,7 @@ apt install htop
 apt install terminator
 apt install cmus
 apt install ubuntu-restricted-extras
+apt install cmake
 
 #--------------------
 #i3 gaps
