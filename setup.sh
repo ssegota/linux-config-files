@@ -11,7 +11,7 @@ apt install cmus
 apt install ubuntu-restricted-extras
 apt install cmake
 apt install nitrogen
-
+apt install spyder
 #--------------------
 #i3 gaps
 #--------------------
