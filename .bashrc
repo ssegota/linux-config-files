@@ -119,5 +119,4 @@ fi
 #aliases
 alias accio='sudo apt-get install'
 alias gimme='sudo apt install'
-alias chrome='chromium-browser'
 alias unmute='amixer set Headphone unmute'
