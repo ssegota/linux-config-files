@@ -117,6 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 #aliases
+alias lock='i3lock --color 2f2f2f -i ~/.lock.png' 
 alias accio='sudo apt-get install'
 alias gimme='sudo apt install'
 alias unmute='amixer set Headphone unmute'
