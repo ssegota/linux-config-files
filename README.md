@@ -25,3 +25,6 @@ setup.sh installs following software:
 * cmake
 * cmus
 * ubuntu-restricted-extras
+* spyder
+* spyder3
+* vlc
