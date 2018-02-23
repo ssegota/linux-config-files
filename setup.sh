@@ -13,6 +13,8 @@ apt install cmake
 apt install nitrogen
 apt install spyder
 apt install spyder3
+apt install vlc
+
 #--------------------
 #i3 gaps
 #--------------------
