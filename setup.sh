@@ -15,6 +15,7 @@ apt install spyder                        #python IDE, gets numpy, matplotlib, s
 apt install spyder3                       #python3 IDE
 apt install vlc                           #video player
 apt install gdebi                         #deb installation utility
+apt install acpi                          #battery info
 
 #--------------------
 #i3 gaps
