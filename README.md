@@ -28,3 +28,11 @@ setup.sh installs following software:
 * spyder
 * spyder3
 * vlc
+* acpi
+
+## Scripts
+
+.battnotif script notifies when battery is nearing empty, using acpi. Add this line to cron using `crontab -e` to run it every 10 minutes.
+
+` */10 * * * * ~/.battnotif`
+
