@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #from official repos
-apt install i3 git vim gparted htop terminator cmus ubuntu-restricted-extras cmake nitrogen spyder spyder3 acpi
+apt install i3 git vim gparted htop terminator cmus ubuntu-restricted-extras cmake nitrogen spyder spyder3 acpi p7zip-full
 #apt install i3                            #window manager
 #apt install git                           #version control software
 #apt install vim                           #text editor
