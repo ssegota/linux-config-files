@@ -1,22 +1,25 @@
 #!/bin/bash
 
 #from official repos
-apt install i3                            #window manager
-apt install git                           #version control software
-apt install vim                           #text editor
-apt install gparted                       #disk utility
-apt install htop                          #resource monitoring
-apt install terminator                    #terminal emulator
-apt install cmus                          #terminal music player
-apt install ubuntu-restricted-extras      #https://en.wikipedia.org/wiki/Ubuntu-restricted-extras
-apt install cmake                         #software builder utility
-apt install nitrogen                      #wallpaper engine
-apt install spyder                        #python IDE, gets numpy, matplotlib, scipy as deps
-apt install spyder3                       #python3 IDE
-apt install vlc                           #video player
-apt install gdebi                         #deb installation utility
-apt install acpi                          #battery info
+apt install i3 git vim gparted htop terminator cmus ubuntu-restricted-extras cmake nitrogen spyder spyder3 acpi
+#apt install i3                            #window manager
+#apt install git                           #version control software
+#apt install vim                           #text editor
+#apt install gparted                       #disk utility
+#apt install htop                          #resource monitoring
+#apt install terminator                    #terminal emulator
+#apt install cmus                          #terminal music player
+#apt install ubuntu-restricted-extras      #https://en.wikipedia.org/wiki/Ubuntu-restricted-extras
+#apt install cmake                         #software builder utility
+#apt install nitrogen                      #wallpaper engine
+#apt install spyder                        #python IDE, gets numpy, matplotlib, scipy as deps
+#apt install spyder3                       #python3 IDE
+#apt install vlc                           #video player
+#apt install gdebi                         #deb installation utility
+#apt install acpi                          #battery info
 
+#Embeeded systems
+apt install openssh-server qemu qemu-user-static binmft-support build-essential libncurses5-dev libssl-dev kernel-package fakeroot
 #--------------------
 #i3 gaps
 #--------------------
